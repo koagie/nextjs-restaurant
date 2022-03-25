@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import AboutUs from './AboutUs/AboutUs';
+import Chef from './Chef/Chef';
+import FindUs from './Findus/FindUs';
+import Footer from './Footer/Footer';
+import Gallery from './Gallery/Gallery';
+import Header from './Header/Header';
+import Intro from './Intro/Intro';
+import Laurels from './Laurels/Laurels';
+import SpecialMenu from './Menu/SpecialMenu';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+export {
+  AboutUs,
+  Chef,
+  FindUs,
+  Footer,
+  Gallery,
+  Header,
+  Intro,
+  Laurels,
+  SpecialMenu,
+};
